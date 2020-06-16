@@ -1,3 +1,48 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.container{
+max-width: 1140px;
+padding: 0 15px;
+margin: 0 auto;
+}
+header{
+    background-color:#C8A35F;
+    a{
+        color: inherit;
+    }
+} 
+
+
+.header-top {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+min-height: 45px;
+color: white;
+align-items: center;
+font-size: 12px;
+        &__lang {
+        text-align: left;
+        }
+
+		&__lang-container {
+        color: #E3D1AF; 
+            .active{
+                color: #fff;
+            }
+        }
+
+		&__mobile {
+            text-align: center;
+		}
+
+		&__mobile-container {
+		}
+
+		&__email {
+        text-align: right;
+        }
+
+		&__email-container {
+		}
+}

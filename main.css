@@ -1,1 +1,51 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #C8A35F;
+}
+
+header a {
+  color: inherit;
+}
+
+.header-top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  min-height: 45px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+.header-top__lang {
+  text-align: left;
+}
+
+.header-top__lang-container {
+  color: #E3D1AF;
+}
+
+.header-top__lang-container .active {
+  color: #fff;
+}
+
+.header-top__mobile {
+  text-align: center;
+}
+
+.header-top__email {
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */
