@@ -93,7 +93,7 @@ header a {
 }
 
 .header-nav__link a {
-  padding: 0 15px;
+  padding-left: 15px;
   text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
